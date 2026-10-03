@@ -1,0 +1,23 @@
+# ==========================================
+#  Seed Filter Configuration
+# ==========================================
+
+SeedFilter:
+  # Optional default seed corpus root for standalone CLI.
+  # Usually keep this empty and pass --input explicitly.
+  input_dir:                    
+  output_dir:                   logs/seed-filter
+
+  log_level:                    INFO
+  # Empty value disables standalone CLI file logging.
+  log_file:                     ${SeedFilter.output_dir}/seed-filter.log
+
+  keep_rejected_case:           false
+  copy_accepted_case:           true
+
+  compile_filter_enabled:       true
+  JVMDT_filter_enabled:         true
+  static_filter_enabled:        true
+
+  use_cache:                    true
+  cache_file:                   ${SeedFilter.output_dir}/seed-filter-cache.properties

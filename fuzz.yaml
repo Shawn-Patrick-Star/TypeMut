@@ -1,0 +1,60 @@
+# ==========================================
+#  Fuzzer Configuration
+# ==========================================
+
+log:
+  enabled:                  true
+  level:                    INFO
+  dir:                      logs
+
+FuzzingEngine:
+  seed_filter_enabled:      true # true: load seeds through seed-filter. Seed-filter behavior is configured by seed-filter.yaml.
+  mutation_enabled:         true
+
+  termination_mode:         TIME # TIME/ROUND
+  max_fuzzing_time_minutes: auto # 1440 = 24h ; auto = no time limit 
+  max_fuzzing_rounds:       10   # valid only when termination_mode = ROUND
+
+  max_mutation_depth:       10    # most mutations per initial seed
+  max_mutations_per_seed:   3     # most mutations per seed
+
+  experimental_mode:        false
+  fixed_random_seed:        12345
+  random_operator_weights:  true
+
+BugReproducer:
+  mode:                     ALL              # ONE/ALL
+  bugPath:                  fuzz_output/bugs # ALL: bugs root dir; ONE: specific bug dir
+  moveBug:                  false
+
+project:
+  linux:
+    seed_dir: /path/to/your/seed/directory
+    output_dir: ./fuzz_output
+    
+  win:
+    seed_dir: /path/to/your/seed/directory
+    output_dir: ./fuzz_output
+
+
+AbstractBlockOperator:
+  max_interval_trials:  20
+  max_ast_depth:        4
+
+ComputationChainOP:
+  min_chain_length:     3
+  max_chain_length:     6
+
+weight:
+  ComputationChainOP:            1.0
+  PrimitiveConversionOperator:  1.0
+  BoxedConversionOperator:      1.0
+  ReferenceConversionOperator:  1.0
+  MethodToReflectionOperator:   0.05
+  MethodToMethodHandleOperator: 0.05
+  LoopInjectionOperator:        1.0
+  IfInjectionOperator:          1.0
+  SwitchInjectionOperator:      1.0
+  TryCatchInjectionOperator:    1.0
+  VectorizationTriggerOperator: 1.0
+  PolymorphismOperator:         1.0

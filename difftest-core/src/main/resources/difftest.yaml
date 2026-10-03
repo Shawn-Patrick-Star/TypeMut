@@ -1,0 +1,57 @@
+# ==========================================
+#  Differential Testing Configuration
+# ==========================================
+
+difftest:
+  log_level:                    INFO
+  log_file:                     logs/difftest.log  # valid only when running difftest-core; empty value = no log file.
+
+  # use_compiler_dt = false: compile with one baseline compiler
+  # use_jvm_dt = false: stop after compilation
+  use_compiler_dt:              false
+  use_jvm_dt:                   true
+  ignore_timeout_difference:    true  # If any JVM times out, report MATCH_TIMEOUT instead of a bug.
+
+  java_version:                 8
+  
+  timeout_seconds:              15
+  output_limit_line:            2000
+
+  # Compiler/JVM IDs to enable; empty means all configured compiler.* / jvm.* entries.
+  active_compilers:
+    - javac-${difftest.java_version}
+  active_jvms:
+    - hotspot-${difftest.java_version}
+    - openj9-${difftest.java_version}
+
+
+linux:
+  difftest:
+    jdk_root: /share/jdks
+
+  compiler:
+    "javac-${difftest.java_version}":
+      path: ${difftest.jdk_root}/hotspot-${difftest.java_version}/bin/javac
+
+  jvm:
+    "hotspot-${difftest.java_version}":
+      path: ${difftest.jdk_root}/hotspot-${difftest.java_version}/bin/java
+      args: -Xcomp
+    "openj9-${difftest.java_version}":
+      path: ${difftest.jdk_root}/openj9-${difftest.java_version}/bin/java
+      args: -Xcomp
+
+win:
+  difftest:
+    jdk_root: "D:\\Project\\idea_java_project\\share\\jdk"
+
+  compiler:
+    "javac-${difftest.java_version}":
+      path: "${difftest.jdk_root}\\jdk${difftest.java_version}-hotspot\\bin\\javac.exe"
+
+  jvm:
+    "hotspot-${difftest.java_version}":
+      path: "${difftest.jdk_root}\\jdk${difftest.java_version}-hotspot\\bin\\java.exe"
+      args: -Xcomp
+    "openj9-${difftest.java_version}":
+      path: "${difftest.jdk_root}\\jdk${difftest.java_version}-openj9\\bin\\java.exe"

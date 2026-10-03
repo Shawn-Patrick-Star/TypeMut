@@ -1,0 +1,21 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+.idea/
+.claude/
+.agents/
+.vscode/
+__pycache__/
+
+### Mac OS ###
+.DS_Store
+
+### Fuzz Output ###
+fuzz_output/
+logs/
+seeds/
+difftest-core/demo/.dt/
+tools/
+OP_Test/generated
