@@ -1,0 +1,14 @@
+{
+  "interrupted": false,
+  "totalCandidates": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "compileFailed": 0,
+  "staticTime": 0,
+  "staticConcurrency": 0,
+  "staticSystem": 0,
+  "rawDiffFailure": 0,
+  "rawTimeout": 0,
+  "rawEnvironmentError": 0,
+  "invalidPath": 0
+}

@@ -1,3 +1,22 @@
+
+
+```
+java -jar FeatureStatistics-1.0-SNAPSHOT.jar -t JIT_Type/
+
+java -jar FeatureStatistics-1.0-SNAPSHOT.jar -t Javac_Bugs_Type/
+
+python3 aiQuery_jit.py --dir ../new_crawl/Hotspot_filtered/ --stage analyze --model deepseek --workers 10
+
+python3 analyze_jit_llm_results.py --dir JIT_Type/ --model deepseek
+
+python3 crawl_hotspot.py --start-date 1999-07-06 --end-date 2026-08-28 --workers 15
+
+```
+
+
+
+
+
 # TypeFuzz
 
 TypeFuzz 是一个面向 JVM 类型相关缺陷的程序变异与差分测试工具。
@@ -6,25 +25,7 @@ TypeFuzz 是一个面向 JVM 类型相关缺陷的程序变异与差分测试工
 
 ## 1. 工具简介
 
-### 1.1 研究目标
 
-<!-- TODO: 介绍 TypeFuzz 要解决的问题、目标 JVM 缺陷类型以及适用场景。 -->
-
-### 1.2 核心工作流程
-
-```text
-输入种子程序
-	↓
-种子筛选
-	↓
-程序变异
-	↓
-多编译器 / 多 JVM 执行
-	↓
-差分结果分析
-	↓
-缺陷报告与复现材料
-```
 
 ### 1.3 项目结构
 
@@ -233,5 +234,4 @@ difftest.active_jvms: hotspot-${difftest.java_version},openj9-${difftest.java_ve
 ### 10.3 测试与验证
 
 <!-- TODO: 填写单元测试、集成测试和手工验证命令。 -->
-
 

@@ -1,0 +1,64 @@
+[INFO ] [2026-10-01 18:34:58]  - [Filter] openj9 reports JMX DumpOptions as write-only while hotspot succeeds. Skipping.
+[WARN ] [2026-10-01 18:34:58]  - [DTConfig] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[DEBUG] [2026-10-01 18:34:59]  - [Mutation] IfInjection: mode=GENERAL, condition=(boxed != null) && (((int) (boxed)) != -14)
+[DEBUG] [2026-10-01 18:35:00]  - [Mutation] IfInjection: mode=GENERAL, condition=x != y
+[DEBUG] [2026-10-01 18:35:00]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(byte), layout=DENSE, cases=4
+[DEBUG] [2026-10-01 18:35:00]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(byte), layout=SPARSE, cases=4
+[DEBUG] [2026-10-01 18:35:00]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(short), layout=DENSE, cases=4
+[DEBUG] [2026-10-01 18:35:00]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(short), layout=SPARSE, cases=4
+[DEBUG] [2026-10-01 18:35:01]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(char), layout=DENSE, cases=4
+[DEBUG] [2026-10-01 18:35:01]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(char), layout=SPARSE, cases=4
+[DEBUG] [2026-10-01 18:35:01]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(int), layout=DENSE, cases=4
+[DEBUG] [2026-10-01 18:35:01]  - [Mutation] SwitchInjection: mode=TRANSPARENT, selector=selector(int), layout=SPARSE, cases=4
+[DEBUG] [2026-10-01 18:35:02]  - [Mutation] SwitchInjection: mode=FALL_THROUGH, selector=selector(int), layout=SPARSE, cases=3
+[DEBUG] [2026-10-01 18:35:02]  - [Mutation] TryCatchInjection: catch=SINGLE, types=[RuntimeException]
+[DEBUG] [2026-10-01 18:35:02]  - [Mutation] TryCatchInjection: catch=MULTI, types=[ArithmeticException, NullPointerException, IllegalArgumentException]
+[DEBUG] [2026-10-01 18:35:03]  - [Mutation ComputationChainOP] inserted 6 steps before line 4 (int -> int -> int)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 13 (byte -> int -> byte)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 14 (short -> long -> short)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 15 (char -> int -> char)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 16 (int -> long -> int)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 17 (long -> long -> long)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 18 (float -> float -> float)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 19 (double -> double -> double)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 3 steps before line 20 (boolean -> boolean -> boolean)
+[DEBUG] [2026-10-01 18:35:04]  - [Mutation ComputationChainOP] inserted 4 steps before line 4 (int -> int -> int)
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> short
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> short
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> short
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> byte
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected WIDENING conversion: int -> long
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation PrimitiveConversionOperator] selected NARROWING conversion: int -> char
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation ReferenceConversionOperator] selected UPCAST conversion: Child -> Parent
+[DEBUG] [2026-10-01 18:35:05]  - [Mutation ReferenceConversionOperator] selected DOWNCAST conversion: java.lang.Object -> java.lang.String
+[INFO ] [2026-10-01 18:35:05]  - [OperatorRegistry] Random weight mode enabled.
+[INFO ] [2026-10-01 18:35:05]  - [OperatorRegistry] Random weight mode enabled.
+[INFO ] [2026-10-01 18:35:05]  - [OperatorRegistry] Random weight mode enabled.
+[INFO ] [2026-10-01 18:35:05]  - [OperatorRegistry] Random weight mode enabled.
+[INFO ] [2026-10-01 18:35:05]  - [OperatorRegistry] Random weight mode enabled.

@@ -1,0 +1,1546 @@
+[WARN ] [2026-07-11 12:07:19] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[INFO ] [2026-07-11 12:07:19] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:19] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:19] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:19] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:19] --- Version Check Completed ---
+[WARN ] [2026-07-11 12:07:19] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-07-11 12:07:19] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit6748389133675043801
+[INFO ] [2026-07-11 12:07:19] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : cpu=16, process_limit=12, max_stage_targets=2
+ DT Threads          : target=2, io=4, timeout=15s
+ Worker Threads      : 4
+ Compilers           : javac-8(javac 1.8.0_442), ecj(version pending)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-07-11 12:07:19] [SeedFilter] Filtering with 4 worker threads.
+[WARN ] [2026-07-11 12:07:19] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[WARN ] [2026-07-11 12:07:19] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[INFO ] [2026-07-11 12:07:19] --- Initializing Version Check (Compilers & JVMs) ---
+[WARN ] [2026-07-11 12:07:19] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[WARN ] [2026-07-11 12:07:19] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[INFO ] [2026-07-11 12:07:19] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:19] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:19] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:20] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:20] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:20] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:20] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:20] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:20] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:20] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:20] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:20] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:21] --- Stage 1: Compiler DT finished in 513 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:21] --- Stage 1: Compiler DT finished in 576 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:21] --- Stage 1: Compiler DT finished in 579 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:21] --- Stage 1: Compiler DT finished in 607 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- Stage 2: JVM DT finished in 1006 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- DTPipeline finished in 1519 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- Stage 2: JVM DT finished in 966 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- DTPipeline finished in 1576 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- Stage 2: JVM DT finished in 977 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- DTPipeline finished in 1558 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- Stage 2: JVM DT finished in 1035 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] --- DTPipeline finished in 1613 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:22] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-07-11 12:07:22
+ Total Duration        : 0d 00h 00m 03s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 1.28 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-07-11 12:07:22] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[WARN ] [2026-07-11 12:07:22] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[INFO ] [2026-07-11 12:07:22] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:22] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:22] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:22] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:22] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:23] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit16508658367339962434
+[INFO ] [2026-07-11 12:07:23] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : cpu=16, process_limit=12, max_stage_targets=2
+ DT Threads          : target=2, io=4, timeout=15s
+ Worker Threads      : 1
+ Compilers           : javac-8(javac 1.8.0_442), ecj(version pending)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[WARN ] [2026-07-11 12:07:23] [DTPipeline] NO CompilerDT; Using 'javac-8' as baseline compiler.
+[INFO ] [2026-07-11 12:07:23] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 12:07:23] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:23] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 12:07:23] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 12:07:23] --- Version Check Completed ---
+[INFO ] [2026-07-11 12:07:24] --- Stage 1: Compiler DT finished in 394 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:24] --- Stage 2: JVM DT finished in 824 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:24] --- DTPipeline finished in 1219 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-07-11 12:07:24] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-07-11 12:07:24
+ Total Duration        : 0d 00h 00m 02s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.39 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-07-11 12:07:24] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-07-11 16:17:11] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:11] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:11] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:11] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:11] --- Version Check Completed ---
+[WARN ] [2026-07-11 16:17:11] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-07-11 16:17:11] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit12394247015394411250
+[INFO ] [2026-07-11 16:17:11] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+Resources           : process_limit=12, max_stage_targets=2
+ DT Threads          : target=2, io=4, timeout=15s
+ Worker Threads      : 4
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-07-11 16:17:11] [SeedFilter] Filtering with 4 worker threads.
+[INFO ] [2026-07-11 16:17:11] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:11] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:11] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:11] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:12] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:12] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:12] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:12] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:12] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:12] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:12] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:12] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:12] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-07-11 16:17:12
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 3.05 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-07-11 16:17:12] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-07-11 16:17:12] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:12] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:12] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:13] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:13] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:13] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit11694998621249978198
+[INFO ] [2026-07-11 16:17:13] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+Resources           : process_limit=12, max_stage_targets=2
+ DT Threads          : target=2, io=4, timeout=15s
+ Worker Threads      : 1
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-07-11 16:17:13] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-07-11 16:17:13] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:13] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-07-11 16:17:13] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-07-11 16:17:13] --- Version Check Completed ---
+[INFO ] [2026-07-11 16:17:13] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-07-11 16:17:13
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.87 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-07-11 16:17:13] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-23 22:10:43] [Resource] Global weighted process capacity: 14
+[INFO ] [2026-09-23 22:10:43] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:10:44] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:45] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:47] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:10:47] --- Version Check Completed ---
+[WARN ] [2026-09-23 22:10:48] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-23 22:10:48] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit1538408751639215959
+[INFO ] [2026-09-23 22:10:48] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=14, max_stage_targets=4
+ DT Threads          : target=14, io=28, timeout=15s
+ Worker Threads      : 3
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-23 22:10:48] [SeedFilter] Filtering with 3 worker threads.
+[INFO ] [2026-09-23 22:10:48] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:10:48] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:10:48] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:10:48] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:48] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:48] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:48] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:48] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:48] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:50] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:10:50] --- Version Check Completed ---
+[WARN ] [2026-09-23 22:10:50] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-23 22:10:50] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:10:50] --- Version Check Completed ---
+[WARN ] [2026-09-23 22:10:50] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-23 22:10:50] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:10:50] --- Version Check Completed ---
+[WARN ] [2026-09-23 22:10:50] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-23 22:10:52] --- Stage 1: Compiler DT finished in 1413 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:52] --- Stage 1: Compiler DT finished in 1584 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:52] --- Stage 1: Compiler DT finished in 1519 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- Stage 2: JVM DT finished in 3001 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- DTPipeline finished in 4415 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- Stage 2: JVM DT finished in 2917 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- DTPipeline finished in 4506 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- Stage 2: JVM DT finished in 2940 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:55] --- DTPipeline finished in 4461 ms (MATCH_SUCCESS) ---
+[WARN ] [2026-09-23 22:10:55] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-23 22:10:56] --- Stage 1: Compiler DT finished in 1123 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:58] --- Stage 2: JVM DT finished in 2523 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:58] --- DTPipeline finished in 3649 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:10:59] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-23 22:10:59
+ Total Duration        : 0d 00h 00m 15s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.26 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-23 22:10:59] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-23 22:10:59] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:10:59] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:10:59] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:11:00] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:11:00] --- Version Check Completed ---
+[INFO ] [2026-09-23 22:11:00] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit15391909648675971497
+[INFO ] [2026-09-23 22:11:00] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=14, max_stage_targets=4
+ DT Threads          : target=14, io=28, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-23 22:11:00] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-23 22:11:01] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:11:01] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-23 22:11:02] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-23 22:11:02] --- Version Check Completed ---
+[WARN ] [2026-09-23 22:11:02] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-23 22:11:03] --- Stage 1: Compiler DT finished in 987 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:11:06] --- Stage 2: JVM DT finished in 2536 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:11:06] --- DTPipeline finished in 3525 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-23 22:11:06] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-23 22:11:06
+ Total Duration        : 0d 00h 00m 07s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.14 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-23 22:11:06] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:27:57] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-24 15:27:57] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:27:57] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:27:58] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:27:59] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:27:59] --- Version Check Completed ---
+[WARN ] [2026-09-24 15:28:00] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-24 15:28:00] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit1787573369907003201
+[INFO ] [2026-09-24 15:28:00] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=2
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 3
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:28:00] [SeedFilter] Filtering with 3 worker threads.
+[INFO ] [2026-09-24 15:28:00] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:28:00] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:28:00] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:28:00] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:28:00] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:28:00] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:28:00] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:28:00] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:28:00] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:28:00] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:28:00
+ Total Duration        : 0d 00h 00m 03s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 1.27 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:28:00] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:28:00] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:28:00] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:00] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:01] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:28:01] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:28:01] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit15653015825425087286
+[INFO ] [2026-09-24 15:28:01] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=2
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:28:01] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:28:01] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:01] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:28:01] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:28:01] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:28:01] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:28:01
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.85 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:28:01] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:29:25] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-24 15:29:25] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:25] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:25] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:25] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:25] --- Version Check Completed ---
+[WARN ] [2026-09-24 15:29:25] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-24 15:29:25] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit15215691225316652931
+[INFO ] [2026-09-24 15:29:25] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=2
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 3
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:29:25] [SeedFilter] Filtering with 3 worker threads.
+[INFO ] [2026-09-24 15:29:25] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:25] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:25] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:26] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:29:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:26] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:29:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:26] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:29:26] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:29:26
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 2.93 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:29:26] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:29:26] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:27] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:27] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:29:27] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit8987662637368434432
+[INFO ] [2026-09-24 15:29:27] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=2
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:29:27] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:29:27] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:27] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:29:27] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:29:27] --- Version Check Completed ---
+[WARN ] [2026-09-24 15:29:27] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-09-24 15:29:28] --- Stage 1: Compiler DT finished in 413 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-24 15:29:28] --- Stage 2: JVM DT finished in 768 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-24 15:29:28] --- DTPipeline finished in 1182 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-09-24 15:29:28] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:29:28
+ Total Duration        : 0d 00h 00m 02s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.43 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:29:28] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:33:36] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-24 15:33:36] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:33:37] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:37] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:37] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:33:37] --- Version Check Completed ---
+[WARN ] [2026-09-24 15:33:37] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-24 15:33:37] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit1353080650725914907
+[INFO ] [2026-09-24 15:33:37] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:33:37] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:33:37] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:37] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:38] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:33:38] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:33:38] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:33:38
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 3.17 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:33:38] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 15:33:38] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:33:38] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:38] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:38] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:33:38] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:33:38] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit14637861726960203834
+[INFO ] [2026-09-24 15:33:38] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 15:33:38] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 15:33:38] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:38] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 15:33:39] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 15:33:39] --- Version Check Completed ---
+[INFO ] [2026-09-24 15:33:39] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 15:33:39
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.85 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 15:33:39] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 22:33:03] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-24 22:33:03] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:33:03] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:04] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:04] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:33:04] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:33:04] --- Version Check Completed ---
+[WARN ] [2026-09-24 22:33:05] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-24 22:33:05] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit13664035461842887320
+[INFO ] [2026-09-24 22:33:05] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 22:33:05] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:33:05] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:05] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:05] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:33:05] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:33:05] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:33:05] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 22:33:05
+ Total Duration        : 0d 00h 00m 02s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 1.89 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 22:33:05] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 22:33:05] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:33:05] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:06] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:06] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:33:06] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:33:06] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:33:06] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit12275933039497601208
+[INFO ] [2026-09-24 22:33:06] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 22:33:06] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:33:06] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:07] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:33:07] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:33:07] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:33:07] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:33:07] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 22:33:07
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.76 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 22:33:07] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 22:34:26] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-24 22:34:26] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:34:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:34:26] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:34:26] --- Version Check Completed ---
+[WARN ] [2026-09-24 22:34:26] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-24 22:34:26] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit12702087166771861557
+[INFO ] [2026-09-24 22:34:26] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 22:34:26] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:34:27] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:27] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:27] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:34:27] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:34:27] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:34:27] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 22:34:27
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 2.59 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 22:34:27] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-24 22:34:27] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:34:27] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:28] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:28] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:34:28] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:34:28] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:34:28] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit16164304079530804098
+[INFO ] [2026-09-24 22:34:28] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-24 22:34:28] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-24 22:34:28] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:28] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-24 22:34:28] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-24 22:34:28] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-24 22:34:28] --- Version Check Completed ---
+[INFO ] [2026-09-24 22:34:28] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-24 22:34:28
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.75 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-24 22:34:28] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-26 17:33:07] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-26 17:33:07] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:33:08] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:08] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:08] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:33:08] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:33:08] --- Version Check Completed ---
+[WARN ] [2026-09-26 17:33:08] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-26 17:33:08] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit15191380299774362298
+[INFO ] [2026-09-26 17:33:08] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-26 17:33:08] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:33:09] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:09] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:09] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:33:09] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:33:09] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:33:09] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-26 17:33:09
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 2.16 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-26 17:33:09] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-26 17:33:09] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:33:09] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:10] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:10] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:33:10] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:33:10] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:33:10] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit5182622387979390393
+[INFO ] [2026-09-26 17:33:10] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-26 17:33:10] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:33:10] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:10] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:33:10] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:33:10] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:33:10] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:33:10] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-26 17:33:10
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.78 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-26 17:33:10] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-26 17:40:25] [Resource] Global weighted process capacity: 7
+[INFO ] [2026-09-26 17:40:25] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:40:25] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:40:26] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:40:26] --- Version Check Completed ---
+[WARN ] [2026-09-26 17:40:26] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-26 17:40:26] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit18116373971277115010
+[INFO ] [2026-09-26 17:40:26] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-26 17:40:26] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:40:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:26] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:26] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:40:26] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:40:26] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:40:26] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-26 17:40:26
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 2.71 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-26 17:40:26] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-26 17:40:26] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:40:26] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:27] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:27] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:40:27] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:40:27] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:40:27] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit13129122805337086118
+[INFO ] [2026-09-26 17:40:27] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : process_limit=7, max_stage_targets=4
+ DT Threads          : target=11, io=14, timeout=15s
+ Worker Threads      : 1
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-26 17:40:27] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-26 17:40:27] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:28] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-26 17:40:28] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-26 17:40:28] [Resource] JVM execution policy: mode=ACTIVE_PROCESSOR_COUNT, weight=2, activeProcessors=2
+[INFO ] [2026-09-26 17:40:28] --- Version Check Completed ---
+[INFO ] [2026-09-26 17:40:28] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-26 17:40:28
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.81 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-26 17:40:28] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-30 17:02:07] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-30 17:02:07] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-30 17:02:08] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-30 17:02:08] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-30 17:02:08] --- Version Check Completed ---
+[WARN ] [2026-09-30 17:02:08] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-30 17:02:08] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit8942952115651274979
+[INFO ] [2026-09-30 17:02:08] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : physical_cores=8, workers=4
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-30 17:02:08] [SeedFilter] Filtering with 4 worker threads.
+[INFO ] [2026-09-30 17:02:08] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-30 17:02:08
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 4.49 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-30 17:02:08] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-30 17:02:08] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit1422685529848173324
+[INFO ] [2026-09-30 17:02:08] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : physical_cores=8, workers=1
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-30 17:02:08] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-30 17:02:08
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 50.00 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-30 17:02:08] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-30 17:21:55] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-09-30 17:21:55] [Register] javac-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-30 17:21:55] [Register] hotspot-8: Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+[INFO ] [2026-09-30 17:21:55] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-09-30 17:21:55] --- Version Check Completed ---
+[WARN ] [2026-09-30 17:21:55] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-09-30 17:21:55] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit185495303479721949
+[INFO ] [2026-09-30 17:21:55] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : physical_cores=8, workers=4
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-30 17:21:55] [SeedFilter] Filtering with 4 worker threads.
+[INFO ] [2026-09-30 17:21:55] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-30 17:21:55
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 5.34 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-30 17:21:55] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-09-30 17:21:55] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit1239003837942634367
+[INFO ] [2026-09-30 17:21:55] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true, android=false
+ Resources           : physical_cores=8, workers=1
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ ART                 : none
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-09-30 17:21:55] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-09-30 17:21:55
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 62.50 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-09-30 17:21:55] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 10:31:07] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-10-01 10:31:07] [Register] javac-8: javac 1.8.0_442
+[INFO ] [2026-10-01 10:31:07] [Register] hotspot-8: openjdk version "1.8.0_442"
+[INFO ] [2026-10-01 10:31:08] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-10-01 10:31:08] --- Version Check Completed ---
+[WARN ] [2026-10-01 10:31:08] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-10-01 10:31:08] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit116002891063525770
+[INFO ] [2026-10-01 10:31:08] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=4
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-10-01 10:31:08] [SeedFilter] Filtering with 4 worker threads.
+[WARN ] [2026-10-01 10:31:08] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[WARN ] [2026-10-01 10:31:08] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[WARN ] [2026-10-01 10:31:08] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[WARN ] [2026-10-01 10:31:08] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-10-01 10:31:09] --- Stage 1: Compiler DT finished in 606 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:09] --- Stage 1: Compiler DT finished in 657 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:09] --- Stage 1: Compiler DT finished in 658 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:09] --- Stage 1: Compiler DT finished in 658 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- Stage 2: JVM DT finished in 1332 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- DTPipeline finished in 1939 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- Stage 2: JVM DT finished in 1290 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- DTPipeline finished in 1950 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- Stage 2: JVM DT finished in 1294 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- DTPipeline finished in 1954 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- Stage 2: JVM DT finished in 1306 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] --- DTPipeline finished in 1966 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:10] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 10:31:10
+ Total Duration        : 0d 00h 00m 03s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 1.27 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 10:31:10] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 10:31:10] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit4035324706108619290
+[INFO ] [2026-10-01 10:31:10] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=1
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[WARN ] [2026-10-01 10:31:10] [CompilerDTEngine] Only (javac-8). NO CompilerDT
+[INFO ] [2026-10-01 10:31:11] --- Stage 1: Compiler DT finished in 432 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:12] --- Stage 2: JVM DT finished in 946 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:12] --- DTPipeline finished in 1380 ms (MATCH_SUCCESS) ---
+[INFO ] [2026-10-01 10:31:12] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 10:31:12
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 0.70 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 10:31:12] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 10:34:56] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-10-01 10:34:56] [Register] javac-8: javac 1.8.0_442
+[INFO ] [2026-10-01 10:34:56] [Register] hotspot-8: openjdk version "1.8.0_442"
+[INFO ] [2026-10-01 10:34:56] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-10-01 10:34:56] --- Version Check Completed ---
+[WARN ] [2026-10-01 10:34:56] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-10-01 10:34:56] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit4600099462827035761
+[INFO ] [2026-10-01 10:34:56] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=4
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-10-01 10:34:56] [SeedFilter] Filtering with 4 worker threads.
+[INFO ] [2026-10-01 10:34:56] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 10:34:56
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 5.83 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 10:34:56] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 10:34:56] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit9568648680164248266
+[INFO ] [2026-10-01 10:34:56] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=1
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-10-01 10:34:56] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 10:34:56
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 52.63 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 10:34:56] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 18:35:05] --- Initializing Version Check (Compilers & JVMs) ---
+[INFO ] [2026-10-01 18:35:06] [Register] javac-8: javac 1.8.0_442
+[INFO ] [2026-10-01 18:35:06] [Register] hotspot-8: openjdk version "1.8.0_442"
+[INFO ] [2026-10-01 18:35:07] [Register] openj9-8: openjdk version "1.8.0_432"
+[INFO ] [2026-10-01 18:35:07] --- Version Check Completed ---
+[WARN ] [2026-10-01 18:35:07] [SeedLoader] HotSpot/JTReg @run arguments and @library classpaths are not modeled yet; tests requiring extra VM args, program args, or libraries may be discarded by the pipeline.
+[INFO ] [2026-10-01 18:35:07] [SeedFilter] Loaded 4 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit14828257188106108359
+[INFO ] [2026-10-01 18:35:07] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=4
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-10-01 18:35:07] [SeedFilter] Filtering with 4 worker threads.
+[INFO ] [2026-10-01 18:35:07] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 18:35:07
+ Total Duration        : 0d 00h 00m 01s
+ Total Candidates      : 4
+  Completed            : 4 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 4
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 2.26 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 18:35:07] [SeedFilter] total=4, accepted=4, rejected=0, static=0, compile=0, rawDiff=0
+[INFO ] [2026-10-01 18:35:07] [SeedFilter] Loaded 1 candidate seeds from C:\Users\ASUS\AppData\Local\Temp\junit5839093268791227998
+[INFO ] [2026-10-01 18:35:07] 
+============ SEED FILTER CONFIG =============
+ Diff Modes          : compiler=false, jvm=true
+ Resources           : physical_cores=8, workers=1
+ Timeout             : 15s
+ Filters             : static=true, compile=true, jvmdt=true
+ Case Copy           : accepted=true, rejected=false
+ Compilers           : javac-8(javac 1.8.0_442)
+ JVMs                : hotspot-8(openjdk version "1.8.0_442"), openj9-8(openjdk version "1.8.0_432")
+ Output Dir          : logs\seed-filter
+ Cache File          : logs\seed-filter\seed-filter-cache.properties
+ Detailed logs       : logs\seed-filter\seed-filter.log
+ Reports Dir         : logs\seed-filter\reports
+[INFO ] [2026-10-01 18:35:07] 
+============ SEED FILTER REPORT =============
+ Status                : FINISHED
+ Last Update           : 2026-10-01 18:35:07
+ Total Duration        : 0d 00h 00m 00s
+ Total Candidates      : 1
+  Completed            : 1 (100.00%)
+  Remaining            : 0
+
+  Accepted Seeds       : 1
+  Rejected Seeds       : 0
+   Static Time         : 0
+   Static Concurrency  : 0
+   Static System       : 0
+   Compile Failed      : 0
+   Raw Diff Failure    : 0
+   Raw Timeout         : 0
+   Raw Env Error       : 0
+   Invalid Path        : 0
+ Filtering Speed       : 32.26 seeds/s
+============================================
+ Refresh               : every 3 seconds
+[INFO ] [2026-10-01 18:35:07] [SeedFilter] total=1, accepted=1, rejected=0, static=0, compile=0, rawDiff=0
