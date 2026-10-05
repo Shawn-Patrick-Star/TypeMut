@@ -31,8 +31,10 @@ cd chapter2\LLManalyze
 
 建议使用 Python 3.9 或更高版本。调用真实 API 时需要安装：
 
+从 `02Tools/LLMAnalysis/` 目录安装 `02Tools` 下所有 Python 工具的依赖：
+
 ```powershell
-python -m pip install openai httpx
+python -m pip install -r ..\requirements.txt
 ```
 
 `--dry-run` 和单元测试不会创建 API 客户端，因此不要求安装 API SDK，也不需要 API key。

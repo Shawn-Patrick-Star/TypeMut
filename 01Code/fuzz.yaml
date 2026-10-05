@@ -8,7 +8,7 @@ log:
   dir:                      logs
 
 FuzzingEngine:
-  seed_filter_enabled:      true # true: load seeds through seed-filter. Seed-filter behavior is configured by seed-filter.yaml.
+  seed_filter_enabled:      false # true: load seeds through seed-filter. Seed-filter behavior is configured by seed-filter.yaml.
   mutation_enabled:         true
 
   termination_mode:         TIME # TIME/ROUND
@@ -46,7 +46,7 @@ ComputationChainOP:
   max_chain_length:     6
 
 weight:
-  ComputationChainOP:            1.0
+  ComputationChainOP:           1.0
   PrimitiveConversionOperator:  1.0
   BoxedConversionOperator:      1.0
   ReferenceConversionOperator:  1.0

@@ -18,7 +18,6 @@ difftest:
   # Compiler/JVM IDs to enable; empty means all configured compiler.* / jvm.* entries.
   active_compilers:
     - javac-${difftest.java_version}
-    - ecj
   active_jvms:
     - hotspot-${difftest.java_version}
     - openj9-${difftest.java_version}
@@ -31,9 +30,6 @@ linux:
   compiler:
     "javac-${difftest.java_version}":
       path: ${difftest.jdk_root}/hotspot-${difftest.java_version}/bin/javac
-    ecj:
-      path: ${difftest.jdk_root}/hotspot-21/bin/java
-      args: -jar /share/compilers/ecj/ecj-4.39.jar --release ${difftest.java_version}
 
   jvm:
     "hotspot-${difftest.java_version}":
