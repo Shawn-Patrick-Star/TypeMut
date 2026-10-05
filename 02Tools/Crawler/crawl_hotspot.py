@@ -6,7 +6,7 @@ from crawl_jbs import JBSDatasetSpec, build_cli, run_jbs_crawler, run_jbs_patch_
 # JIT-triggered, type-related bug is decided later by expert review.
 SPEC = JBSDatasetSpec(
     name="HotSpot-JIT-Candidate",
-    output_dir="Hotspot_JIT_Bugs_v4",
+    output_dir="JIT_Issues",
     component="hotspot",
     subcomponent="compiler",
 )
