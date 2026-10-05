@@ -213,8 +213,6 @@ class LLMClient:
                     "max_tokens": max_tokens,
                 }
 
-                # DeepSeek V4 Flash / Pro 默认开启 thinking。
-                # TypeFuzz 是大规模结构化抽取任务，因此显式关闭 thinking。
                 if self.platform == "deepseek":
                     kwargs["extra_body"] = {
                         "thinking": {
