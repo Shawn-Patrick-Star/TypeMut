@@ -43,7 +43,7 @@ Tyche is implemented using Python3.10 and Java 21.
 
 - **Python Environment:** Ensure Python 3.10 is installed. Install dependencies via:
 
-```
+```bash
 # python3 -m pip install -r 02Tools/requirements.txt
 ```
 
@@ -55,19 +55,19 @@ Tyche performs differential testing across multiple JVM implementations, includi
 
 - **HotSpot:** install from [Java Downloads | Oracle](https://www.oracle.com/java/technologies/downloads/)
 
-```
+```bash
 # wget https://download.oracle.com/java/21/archive/jdk-21.0.2_linux-x64_bin.tar.gz
 ```
 
 - **OpenJ9:** install from [Semeru Runtime Downloads - IBM Developer](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)
 
-```
+```bash
 # wget https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_x64_linux_21.0.12.0.tar.gz
 ```
 
 Finally, you will get the following directory:
 
-```
+```text
 jdks/
 ├── hotspot-8
 ├── hotspot-8-old
@@ -83,7 +83,7 @@ jdks/
 
 ### (3) Download and build instrumented JVM
 
-```
+```bash
 # git clone https://github.com/openjdk/jdk21u.git
 # cd jdk21u
 # bash configure \
@@ -112,7 +112,7 @@ The crawlers save issue metadata, complete Java reproducers found in issues or a
 
 2. LLM-assisted analysis:
 
-```
+```bash
 # export DEEPSEEK_API_KEY="your-api-key"
 
 # python3 aiQuery_jit.py \
@@ -132,7 +132,7 @@ The crawlers save issue metadata, complete Java reproducers found in issues or a
 
 3. Summarize the results:
 
-```
+```bash
 # python3 analyze_jit_llm_results.py \
     --dir /path/to/Hotspot_JIT_Bugs_v4 \
     --model deepseek
@@ -140,7 +140,7 @@ The crawlers save issue metadata, complete Java reproducers found in issues or a
 
 4. Extract source-level feature statistics
 
-```
+```bash
 # cd 02Tools/FeatureStatistics
 # mvn clean package
 
@@ -154,7 +154,7 @@ Then you can check the summary.json in `03BugIssues/JIT_Type`
 
 ### Main Experiment
 
-```
+```bash
 # cd 01Code/
 # mvn clean package
 # java -jar fuzz-app/target/fuzz-app-1.0-SNAPSHOT.jar \
@@ -181,7 +181,7 @@ You can change the arguments by editing the YAML files.
 
 Set `linux.jvm` in `difftest.yaml` to the instrumented JVM. After the experiment finishes, run:
 
-```
+```bash
 # cp 02Tools/CoverageCollector/collect.sh /path/to/instrumented JVM
 # cd /path/to/instrumented JVM
 # bash collect.sh
